@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "name": "ODS",
-      "budget": "5000",
+      "name": "ODS teste",
+      "budget": "5120000",
       "category": {
-        "id": "4",
-        "name": "4"
+        "id": "1",
+        "name": "1"
       },
       "post": 0,
       "services": [],
