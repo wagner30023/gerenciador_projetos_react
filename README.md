@@ -1,6 +1,6 @@
 # Gerenciador de projetos, tem como objetivo  planejar e gerenciar os custos, recursos de um projeto.
 - projeto desenvolvido em React.
-- consume dados através de API local.
+- consumindo dados através da API local.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
