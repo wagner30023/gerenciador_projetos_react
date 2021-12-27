@@ -1,4 +1,4 @@
-import {  v4 as uuidv4} from 'uuid'
+import {parse,  v4 as uuidv4} from 'uuid'
 
 import styles from './Project.module.css'
 import {useParams} from 'react-router-dom'
@@ -8,12 +8,13 @@ import Container from '../layout/Container'
 import Message from '../layout/Message'
 import ProjectForm from '../project/ProjectForm'
 import ServiceForm from '../service/ServiceForm'
-
+import ServiceCard from '../service/ServiceCard'
 
 
 function Project(){
     const {id} = useParams()
     const [project,setProject] = useState([])
+    const [services, setServices] = useState([])
     const [showProjectForm, setShowProjectForm] = useState(false)
     const [showServiceForm, setShowServiceForm] = useState(false)
     const [message, setMessage] = useState([])
@@ -92,7 +93,9 @@ function Project(){
         })
           .then((resp) => resp.json())
           .then((data) => {
-            // setServices(data.services)
+            setProject(data)
+            setServices(data.services)
+
             // setShowServiceForm(!showServiceForm)
             // setMessage('Serviço adicionado!')
             // setType('success')
@@ -108,6 +111,10 @@ function Project(){
 
     function toggleServiceForm(){
         setShowServiceForm(!showServiceForm)
+    }
+
+    function removeService(){
+
     }
 
     return(
@@ -161,10 +168,21 @@ function Project(){
                                 )}
                             </div>
                     </div>
-                    <h2> Serviços </h2>
-                            <Container customClass="start">
-                                <p> Itens de serviços </p>
-                            </Container>
+                    <h2> Serviços: </h2>
+                        <Container customClass="start">
+                            {services.length > 0 &&
+                                services.map((service) => (
+                                    <ServiceCard
+                                        id={service.id}
+                                        name={service.name}
+                                        cost={service.cost}
+                                        description={service.description}
+                                        key={service.id}
+                                        handleRemove={removeService}
+                                    />
+                                ))}
+                            {services.length === 0 && <p>Não há serviços cadastrados.</p>}
+                        </Container>
                     </Container>
                 </div>
             ) : (

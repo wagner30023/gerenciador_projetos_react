@@ -1,174 +1,6 @@
 {
   "projects": [
     {
-      "name": "ODS teste",
-      "budget": "800",
-      "category": {
-        "id": "1",
-        "name": "1"
-      },
-      "post": 0,
-      "services": [
-        {
-          "name": "sadsa",
-          "cost": "1",
-          "id": "0eebcc67-4f41-4cbb-aab8-af65f0fd1fe5"
-        },
-        {
-          "name": "fghg",
-          "cost": "1001",
-          "id": "0263bf4a-57f0-4bd7-a937-6c9cbe035e1d"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "90000",
-          "id": "a164538b-d97c-4628-944b-942a956c5e6f"
-        },
-        {
-          "name": "Carlos Wagner P. Morais",
-          "cost": "78878787876",
-          "id": "2b9b8ce6-4bfd-4bc5-b8c7-7412424f2323"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "a18c9250-5cee-4674-8ac1-8fdab919df48"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "9f07a4ef-a007-4b6c-8e18-94e489ec289a"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "9f07a4ef-a007-4b6c-8e18-94e489ec289a"
-        },
-        {
-          "name": "AWS Services",
-          "cost": "980000",
-          "id": "9f07a4ef-a007-4b6c-8e18-94e489ec289a"
-        },
-        {
-          "name": "teste ",
-          "cost": "980000",
-          "id": "2a0cde96-d86f-4b47-812c-51703fefa6d6"
-        },
-        {
-          "name": "teste ",
-          "cost": "980000",
-          "id": "2a0cde96-d86f-4b47-812c-51703fefa6d6"
-        },
-        {
-          "name": "teste ",
-          "cost": "980000",
-          "id": "2a0cde96-d86f-4b47-812c-51703fefa6d6"
-        },
-        {
-          "name": "teste ",
-          "cost": "980000",
-          "id": "ace1dd7e-989f-4c53-82cc-4474ba04762b"
-        },
-        {
-          "name": "teste ",
-          "cost": "980000",
-          "id": "ace1dd7e-989f-4c53-82cc-4474ba04762b"
-        },
-        {
-          "name": "teste ",
-          "cost": "980000",
-          "id": "ace1dd7e-989f-4c53-82cc-4474ba04762b"
-        },
-        {
-          "name": "teste ",
-          "cost": "980000",
-          "id": "ace1dd7e-989f-4c53-82cc-4474ba04762b"
-        },
-        {
-          "name": "teste ",
-          "cost": "980000",
-          "id": "ace1dd7e-989f-4c53-82cc-4474ba04762b"
-        },
-        {
-          "name": "Carlos Wagner P. Morais",
-          "cost": "6000000",
-          "id": "30fd8abe-5aaa-4041-a574-aa15d4683236"
-        },
-        {
-          "name": "Carlos Wagner P. Morais",
-          "cost": "602",
-          "id": "dd9e3a5a-456d-4a97-92fc-72393142e9d8"
-        }
-      ],
-      "id": 4,
-      "cost": null
-    },
-    {
       "name": "SITE JJV",
       "budget": "9000",
       "category": {
@@ -178,6 +10,24 @@
       "post": 0,
       "services": [],
       "id": 5
+    },
+    {
+      "name": "INFRA ORACLE",
+      "budget": "4000000",
+      "category": {
+        "id": "1",
+        "name": "1"
+      },
+      "post": 0,
+      "services": [
+        {
+          "name": "Serviços em nuvem",
+          "cost": "1000000",
+          "id": "bf0a6768-abe4-472f-b7c1-6a5500bc16ed"
+        }
+      ],
+      "id": 6,
+      "cost": null
     }
   ],
   "categories": [
